@@ -56,6 +56,11 @@ group :development, :test do
 end
 
 group :development do
+  # UI development environment
+  gem "lookbook"
+  gem "listen"
+  gem "actioncable"
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
